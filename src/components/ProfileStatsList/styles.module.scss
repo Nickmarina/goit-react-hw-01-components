@@ -1,0 +1,30 @@
+.Stats {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    width: 80px;
+    margin-right: 40px;
+    border-radius: 25%;
+    font-weight: 700;
+    background-color: lightgray;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .Label {
+    display: block;
+    color: white;
+    font-size: 17px;
+  }
+
+  .Quantity {
+    font-size: 23px;
+  }
+}

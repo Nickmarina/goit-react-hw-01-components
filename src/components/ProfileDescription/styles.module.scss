@@ -1,0 +1,28 @@
+.Description {
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+
+  img {
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: lightblue;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: grey;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  .Name {
+    font-size: 30px;
+    font-weight: 700;
+    color: darkslategray;
+  }
+}
