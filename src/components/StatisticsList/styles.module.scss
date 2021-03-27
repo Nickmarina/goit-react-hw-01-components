@@ -1,0 +1,35 @@
+.List {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: darkgray;
+
+  li {
+    width: calc((300 -60) / 5);
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .Percentage {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
