@@ -1,9 +1,11 @@
-.Statistics {
+.statistics {
+  box-sizing: border-box;
   width: 300px;
   display: block;
-  background-color: lightgray;
-  text-align: center;
   margin-bottom: 30px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  text-align: center;
+  background-color: lightgray;
 
   h2 {
     margin: 0;

@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 
 const Profile = ({ user }) => {
   return (
-    <div className={styles.Profile}>
+    <div className={styles.profile}>
       <ProfileDescription user={user} />
       <ProfileStatsList stats={user.stats} />
     </div>

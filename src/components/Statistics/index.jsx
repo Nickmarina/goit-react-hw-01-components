@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className={styles.Statistics}>
+    <section className={styles.statistics}>
       <h2>{title}</h2>
       <StatisticsList stats={stats} />
     </section>

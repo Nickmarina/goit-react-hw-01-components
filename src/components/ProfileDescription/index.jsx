@@ -2,11 +2,11 @@ import styles from './styles.module.scss';
 
 const ProfileDescription = ({ user }) => {
   return (
-    <div className={styles.Description}>
+    <div className={styles.description}>
       <img src={user.avatar} alt="Аватар пользователя" />
-      <p className={styles.Name}>{user.name}</p>
-      <p className={styles.Tag}>@{user.tag}</p>
-      <p className={styles.Location}>{user.location}</p>
+      <p className={styles.name}>{user.name}</p>
+      <p className={styles.tag}>@{user.tag}</p>
+      <p className={styles.location}>{user.location}</p>
     </div>
   );
 };
