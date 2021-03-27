@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 
 const FriendListItem = ({ name, avatar, status }) => (
     <li className ={styles.item}>
-        <span>{status}</span>
+        {status ? <span className={styles.online}></span> : <span className={styles.offline}></span>}
         <img src={avatar} alt={name} width="48" />
         <p>{name}</p>
     </li>
